@@ -26,7 +26,7 @@ conda install -c bioconda bwa
 conda install -c bioconda samtools=1.13
 
 wget https://github.com/broadinstitute/gatk/releases/download/4.2.6.1/gatk-4.2.6.1.zip
-unzip /home/$USER/Downloads/gatk-4.2.6.1.zip -d /home/hamza/bioinformatics/bioinformatic_tools/
+unzip /home/$USER/Downloads/gatk-4.2.6.1.zip -d /home/$USER/bioinformatics/bioinformatic_tools/
 export PATH="/home/$USER/Desktop/bioinformatics/bioinformatic_tools/gatk-4.2.6.1/:$PATH"
 
 *******************************************************************************************************************
@@ -107,7 +107,7 @@ trimmomatic PE \
             $fastq_quality_control_path/$sample_name_without_read_number_and_extension"trimmed_unpaired_1.fastq.gz" \
             $fastq_quality_control_path/$sample_name_without_read_number_and_extension"trimmed_paired_2.fastq.gz" \
             $fastq_quality_control_path/$sample_name_without_read_number_and_extension"trimmed_unpaired_2.fastq.gz" \
-            ILLUMINACLIP:/home/hamza/miniconda3/envs/wes_analysis/share/trimmomatic-0.39-2/adapters/TruSeq3-PE.fa:2:30:10 \
+            ILLUMINACLIP:/home/$USER/miniconda3/envs/wes_analysis/share/trimmomatic-0.39-2/adapters/TruSeq3-PE.fa:2:30:10 \
             SLIDINGWINDOW:4:15 MINLEN:36
 done
 
