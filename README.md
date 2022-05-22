@@ -1,1 +1,1 @@
-# Whole-Exome-Sequencing-Workflow-for-multiple-samples_PHINDaccess
+# Whole_Exome_Sequencing_Workflow_for_multiple_samples_PHINDaccess
