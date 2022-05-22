@@ -40,7 +40,7 @@ work_directory="/home/$USER/Desktop/bioinformatics/wes_analysis_hackathon"
 
 reference_genome_directory="/home/$USER/Desktop/bioinformatics/wes_analysis_hackathon/reference_genome/hg19"
 
-#Path to vcf files containing known snps and indels, that can be downloaded from GATK resource boundle.
+#Path to vcf files containing known snps and indels, that can be downloaded from GATK resource bundle.
 known_sites_snps_indels_hg19_path="/home/$USER/Desktop/bioinformatics/wes_analysis_hackathon/known_sites_snps_indels_hg19"
 
 #Path to a bed file for the captured regions during the library prepration, prior to whole exome sequencing.
