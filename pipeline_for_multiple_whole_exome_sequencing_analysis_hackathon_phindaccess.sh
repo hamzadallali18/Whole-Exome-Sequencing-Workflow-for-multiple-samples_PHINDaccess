@@ -31,7 +31,7 @@ export PATH="/home/$USER/Desktop/bioinformatics/bioinformatic_tools/gatk-4.2.6.1
 
 *******************************************************************************************************************
 
-##Definition of variables for the path of the directories containing the raw data, the necessary files for the analysis and the downstream files resulting from the execution of the pipeline
+##Definition of variables for the paths of the directories containing the raw data, the necessary files for the analysis and the downstream files resulting from the execution of the pipeline
 
 #An example of the apth to the work directory
 work_directory="/home/$USER/Desktop/bioinformatics/wes_analysis_hackathon"
